@@ -58,10 +58,10 @@ The application follows a progressive slab-based calculation. This means you are
 
 **Example Calculation for 300 Units:**
 
-1. **Slab 1 (0-100 units):** 
-2. **Slab 2 (101-200 units):** 
-3. **Slab 3 (201-300 units):** 
-4. **Final Total:** 
+1. **Slab 1 (0-100 units): 0** 
+2. **Slab 2 (101-200 units): 500** 
+3. **Slab 3 (201-300 units): 1000** 
+4. **Final Total: 1500** 
 
 ## Requirements
 
@@ -70,18 +70,5 @@ The `requirements.txt` file must include:
 * `streamlit`
 * `pandas`
 
----
 
-*Developed as a demonstration of Python conditional logic and web deployment.*
 
----
-
-### Pro-Tip for your GitHub
-
-Since you had a "rejected" error earlier, make sure to run these three commands after saving this file to get it online:
-
-1. `git add README.md`
-2. `git commit -m "Update professional README"`
-3. `git push origin main`
-
-Would you like me to help you create the **requirements.txt** file now to ensure your Streamlit Cloud deployment doesn't fail?
