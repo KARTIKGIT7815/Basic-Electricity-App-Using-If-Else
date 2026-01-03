@@ -8,7 +8,7 @@ st.subheader("Electricity Units Rates")
 
 df = pd.DataFrame({
     "Unit Range": ["0 - 100", "101 - 200", "201 - 500", "Above 500"],
-    "Rate per Unit": ["Free", "5", "10", "20"]
+    "Rate per Unit": ["Free", "5", "10", "20"], 
 })
 
 st.table(df)
